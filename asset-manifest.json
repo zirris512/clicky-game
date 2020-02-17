@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/clicky-game/static/css/main.fa00e77f.chunk.css",
+    "main.js": "/clicky-game/static/js/main.999518b5.chunk.js",
+    "main.js.map": "/clicky-game/static/js/main.999518b5.chunk.js.map",
+    "runtime-main.js": "/clicky-game/static/js/runtime-main.24c47d54.js",
+    "runtime-main.js.map": "/clicky-game/static/js/runtime-main.24c47d54.js.map",
+    "static/js/2.8be420aa.chunk.js": "/clicky-game/static/js/2.8be420aa.chunk.js",
+    "static/js/2.8be420aa.chunk.js.map": "/clicky-game/static/js/2.8be420aa.chunk.js.map",
+    "index.html": "/clicky-game/index.html",
+    "precache-manifest.01f101103cc27ec35a46012f8c127308.js": "/clicky-game/precache-manifest.01f101103cc27ec35a46012f8c127308.js",
+    "service-worker.js": "/clicky-game/service-worker.js",
+    "static/css/main.fa00e77f.chunk.css.map": "/clicky-game/static/css/main.fa00e77f.chunk.css.map",
+    "static/js/2.8be420aa.chunk.js.LICENSE.txt": "/clicky-game/static/js/2.8be420aa.chunk.js.LICENSE.txt",
+    "static/media/dekuMM.png": "/clicky-game/static/media/dekuMM.24aef95c.png",
+    "static/media/ganon.png": "/clicky-game/static/media/ganon.d950da0f.png",
+    "static/media/ganonOoT.jpg": "/clicky-game/static/media/ganonOoT.4cdb9530.jpg",
+    "static/media/linkBotW.png": "/clicky-game/static/media/linkBotW.ccb1783b.png",
+    "static/media/linkWW.png": "/clicky-game/static/media/linkWW.bd1de4ea.png",
+    "static/media/majora.png": "/clicky-game/static/media/majora.9b574f42.png",
+    "static/media/sheik.jpg": "/clicky-game/static/media/sheik.fbf3ac93.jpg",
+    "static/media/triforce.png": "/clicky-game/static/media/triforce.c0823c14.png",
+    "static/media/zeldaBotW.png": "/clicky-game/static/media/zeldaBotW.e4f47fdc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24c47d54.js",
+    "static/js/2.8be420aa.chunk.js",
+    "static/css/main.fa00e77f.chunk.css",
+    "static/js/main.999518b5.chunk.js"
+  ]
+}
