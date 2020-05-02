@@ -1,36 +1,46 @@
 import React from "react";
-import images from "../assets/images";
 import { useScoreContext } from "../utils/Context";
 
 function Cards() {
-    const [_, dispatch] = useScoreContext();
+   const [state, dispatch] = useScoreContext();
+   
+   const clicked = (arr, value) => {
+      for(let i = 0; i < arr.length; i++) {
+         if(arr[i] === value) {
+            return true;
+         }
+      }
+      return false;
+   }
 
-    // function checkImage(arr, img) {
-    //     arr.push(img);
+   const shuffleArray = arr => {
+      let newArr = arr.slice(0);
 
-    //     for(let i = arr.length - 2; i > 0; i--) {
-    //         if (arr[i] === arr.length - 1) {
-    //             return dispatch({type: "clicked"});
-    //         }
-    //     }
-    //     dispatch({type: "notClicked"});
-    //     console.log(arr);
-    // };
+      for(let i = newArr.length - 1; i > 0; i--) {
+         const j = Math.floor(Math.random() * (i + 1));
+         [newArr[i], newArr[j]] = [newArr[j], newArr[i]];
+      }
 
-    return (
-        <div className="container">
-            <div className="row">
-                {images.map((image, index) => (
-                    <div className="col-3 images">
-                        <img src={image} alt=""
-                        className="click-item"
-                        style={{backgroundColor: "black"}}
-                        onClick={() => dispatch({image: image})}/>
-                    </div>
-                ))}
-            </div>
-        </div>
-    )
+      return newArr;
+   }
+
+   return (
+      <div className="container">
+         <div className="row">
+               {state.images.map((image, index) => (
+                  <div className="col-3 images" key={index}>
+                     <img src={image.image} alt=""
+                     id={image.id}
+                     className="click-item"
+                     style={{backgroundColor: "black"}}
+                     onClick={event => {
+                        clicked(state.clicked, image.id) ? dispatch({type: "clicked", shuffle: shuffleArray(state.images)}) : dispatch({type: "notClicked", value: image.id, shuffle: shuffleArray(state.images)});
+                     }} />
+                  </div>
+               ))}
+         </div>
+      </div>
+   )
 }
 
 export default Cards;
