@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/clicky-game/static/css/main.fa00e77f.chunk.css",
-    "main.js": "/clicky-game/static/js/main.999518b5.chunk.js",
-    "main.js.map": "/clicky-game/static/js/main.999518b5.chunk.js.map",
-    "runtime-main.js": "/clicky-game/static/js/runtime-main.24c47d54.js",
-    "runtime-main.js.map": "/clicky-game/static/js/runtime-main.24c47d54.js.map",
-    "static/js/2.8be420aa.chunk.js": "/clicky-game/static/js/2.8be420aa.chunk.js",
-    "static/js/2.8be420aa.chunk.js.map": "/clicky-game/static/js/2.8be420aa.chunk.js.map",
+    "main.css": "/clicky-game/static/css/main.8b299973.chunk.css",
+    "main.js": "/clicky-game/static/js/main.6f369975.chunk.js",
+    "main.js.map": "/clicky-game/static/js/main.6f369975.chunk.js.map",
+    "runtime-main.js": "/clicky-game/static/js/runtime-main.ea51dac7.js",
+    "runtime-main.js.map": "/clicky-game/static/js/runtime-main.ea51dac7.js.map",
+    "static/js/2.9475d58a.chunk.js": "/clicky-game/static/js/2.9475d58a.chunk.js",
+    "static/js/2.9475d58a.chunk.js.map": "/clicky-game/static/js/2.9475d58a.chunk.js.map",
     "index.html": "/clicky-game/index.html",
-    "precache-manifest.01f101103cc27ec35a46012f8c127308.js": "/clicky-game/precache-manifest.01f101103cc27ec35a46012f8c127308.js",
+    "precache-manifest.0d8f8d7c9a59be5c05c6da89b7a61fef.js": "/clicky-game/precache-manifest.0d8f8d7c9a59be5c05c6da89b7a61fef.js",
     "service-worker.js": "/clicky-game/service-worker.js",
-    "static/css/main.fa00e77f.chunk.css.map": "/clicky-game/static/css/main.fa00e77f.chunk.css.map",
-    "static/js/2.8be420aa.chunk.js.LICENSE.txt": "/clicky-game/static/js/2.8be420aa.chunk.js.LICENSE.txt",
+    "static/css/main.8b299973.chunk.css.map": "/clicky-game/static/css/main.8b299973.chunk.css.map",
+    "static/js/2.9475d58a.chunk.js.LICENSE.txt": "/clicky-game/static/js/2.9475d58a.chunk.js.LICENSE.txt",
     "static/media/dekuMM.png": "/clicky-game/static/media/dekuMM.24aef95c.png",
     "static/media/ganon.png": "/clicky-game/static/media/ganon.d950da0f.png",
     "static/media/ganonOoT.jpg": "/clicky-game/static/media/ganonOoT.4cdb9530.jpg",
@@ -23,9 +23,9 @@
     "static/media/zeldaBotW.png": "/clicky-game/static/media/zeldaBotW.e4f47fdc.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.24c47d54.js",
-    "static/js/2.8be420aa.chunk.js",
-    "static/css/main.fa00e77f.chunk.css",
-    "static/js/main.999518b5.chunk.js"
+    "static/js/runtime-main.ea51dac7.js",
+    "static/js/2.9475d58a.chunk.js",
+    "static/css/main.8b299973.chunk.css",
+    "static/js/main.6f369975.chunk.js"
   ]
 }
