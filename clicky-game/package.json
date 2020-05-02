@@ -10,7 +10,7 @@
     "react-dom": "^16.12.0",
     "react-scripts": "3.4.0"
   },
-  "homepage" : "https://zirris512.github.io/clicky-game/",
+  "homepage": "https://zirris512.github.io/clicky-game/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
