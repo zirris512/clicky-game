@@ -27,17 +27,25 @@ function Cards() {
    return (
       <div className="container">
          <div className="row">
-               {state.images.map((image, key) => (
+               {state.total !== 12
+               ? state.images.map((image, key) => (
                   <div className="col-md-3 images" key={key}>
                      <img src={image.image} alt=""
                      id={image.id}
                      className="click-item"
                      style={{backgroundColor: "black"}}
-                     onClick={event => {
+                     onClick={() => {
                         clicked(state.clicked, image.id) ? dispatch({type: "clicked", shuffle: shuffleArray(state.images)}) : dispatch({type: "notClicked", value: image.id, shuffle: shuffleArray(state.images)});
                      }} />
                   </div>
-               ))}
+               ))
+               : <div className=" col-md-12 text-center" style={{"color": "lime"}}>
+                  <h1>You Won!</h1><hr />
+                  <p>Press the button to play again!</p>
+                  <button className="btn btn-danger restart-button"
+                  onClick={() => dispatch({type: "restart", shuffle: shuffleArray(state.images)})}>Restart</button>
+               </div>
+               }
          </div>
       </div>
    )

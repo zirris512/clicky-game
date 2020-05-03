@@ -38,7 +38,15 @@ const reducer = (state, action) => {
             ...state,
             score: initialState.score,
             clicked: initialState.clicked,
-            images: action.shuffle}
+            images: action.shuffle
+         }
+      case "restart":
+         return {
+            score: initialState.score,
+            total: initialState.total,
+            clicked: initialState.clicked,
+            images: action.shuffle
+         }
       default:
          throw new Error(`Invalid action type: ${action.type}`);
    }
