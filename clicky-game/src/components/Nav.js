@@ -5,7 +5,7 @@ function Nav() {
     const [state] = useScoreContext();
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light sticky-top">
+        <nav className="navbar navbar-expand-lg sticky-top">
             <ul className="navbar-nav nav-fill w-100">
                 <li className="nav-item">
                    <h2>Clicky Game~!</h2>
@@ -14,7 +14,7 @@ function Nav() {
                   <p style={{"fontSize": "20px"}}>Click an image to earn points, but don't click an image more than once!</p>
                 </li>
                 <li className="nav-item">
-                    <p>Score: {state.score} | Total: {state.total}</p>
+                    <p style={{"fontSize": "20px"}}><strong>Score</strong>: {state.score} | <strong>Total</strong>: {state.total}</p>
                 </li>
             </ul>
         </nav>
