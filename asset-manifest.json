@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/clicky-game/static/css/main.8b299973.chunk.css",
-    "main.js": "/clicky-game/static/js/main.6f369975.chunk.js",
-    "main.js.map": "/clicky-game/static/js/main.6f369975.chunk.js.map",
+    "main.css": "/clicky-game/static/css/main.c4de92af.chunk.css",
+    "main.js": "/clicky-game/static/js/main.1bd8f4e9.chunk.js",
+    "main.js.map": "/clicky-game/static/js/main.1bd8f4e9.chunk.js.map",
     "runtime-main.js": "/clicky-game/static/js/runtime-main.ea51dac7.js",
     "runtime-main.js.map": "/clicky-game/static/js/runtime-main.ea51dac7.js.map",
     "static/js/2.9475d58a.chunk.js": "/clicky-game/static/js/2.9475d58a.chunk.js",
     "static/js/2.9475d58a.chunk.js.map": "/clicky-game/static/js/2.9475d58a.chunk.js.map",
     "index.html": "/clicky-game/index.html",
-    "precache-manifest.0d8f8d7c9a59be5c05c6da89b7a61fef.js": "/clicky-game/precache-manifest.0d8f8d7c9a59be5c05c6da89b7a61fef.js",
+    "precache-manifest.cdffa579477a230955e9f741632771b1.js": "/clicky-game/precache-manifest.cdffa579477a230955e9f741632771b1.js",
     "service-worker.js": "/clicky-game/service-worker.js",
-    "static/css/main.8b299973.chunk.css.map": "/clicky-game/static/css/main.8b299973.chunk.css.map",
+    "static/css/main.c4de92af.chunk.css.map": "/clicky-game/static/css/main.c4de92af.chunk.css.map",
     "static/js/2.9475d58a.chunk.js.LICENSE.txt": "/clicky-game/static/js/2.9475d58a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/clicky-game/static/media/LoZ-background.05b9f9be.jpg",
     "static/media/dekuMM.png": "/clicky-game/static/media/dekuMM.24aef95c.png",
     "static/media/ganon.png": "/clicky-game/static/media/ganon.d950da0f.png",
     "static/media/ganonOoT.jpg": "/clicky-game/static/media/ganonOoT.4cdb9530.jpg",
@@ -25,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.ea51dac7.js",
     "static/js/2.9475d58a.chunk.js",
-    "static/css/main.8b299973.chunk.css",
-    "static/js/main.6f369975.chunk.js"
+    "static/css/main.c4de92af.chunk.css",
+    "static/js/main.1bd8f4e9.chunk.js"
   ]
 }
