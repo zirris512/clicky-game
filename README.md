@@ -1,4 +1,4 @@
-# Giphy
+# Clicky Game
 
 An app where the user tries to click on images that have not been previously clicked to increase their score. The goal is to achieve the highest score possible out of 12.
 
@@ -15,9 +15,9 @@ Deployed Page - [https://zirris512.github.io/clicky-game/](https://zirris512.git
 
 ## Screenshots
 
-![Giphy-Home](/assets/css/images/Giphy.png)
+![Clicky-Home](/images/Home.png)
 
-![Giphy-Mario](/assets/css/images/Mario_Example.png)
+![Clicky-Win](/images/Win.png)
 
 ## License & Copyright
 
