@@ -11,19 +11,22 @@ img {
 nav {
   background-color: gold;
   color: black;
-}
-
-a {
-  color: wheat;
-}
-
-header {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 
 .click-item {
   border: 5px solid #f1f1f1;
   border-radius: 3px;
+  box-shadow: -10px 10px 15px black;
   cursor: pointer;
+}
+
+.click-item:hover {
+   transform: translate(5px, -5px);
+   box-shadow: -15px 15px 20px black;
+}
+
+.click-item:active {
+   transform: translateY(3px);
+   box-shadow: -15px 18px 17px black;
 }
