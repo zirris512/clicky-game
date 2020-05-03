@@ -28,7 +28,7 @@ function Cards() {
       <div className="container">
          <div className="row">
                {state.images.map((image, key) => (
-                  <div className="col-3 images" key={key}>
+                  <div className="col-md-3 images" key={key}>
                      <img src={image.image} alt=""
                      id={image.id}
                      className="click-item"
